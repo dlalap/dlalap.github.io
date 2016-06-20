@@ -102,7 +102,7 @@
 	opacity: 0.6;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 	filter: alpha(opacity=60);
-	background: #000000 url("../images/_igp5950.jpg") no-repeat center center;
+	background: #000000 url("../images/igp5950.jpg") no-repeat center center;
 	background-size: cover;
 }
 
