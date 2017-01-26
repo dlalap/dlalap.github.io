@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: #DDD;
+    }
+    ul.menu {
+      list-style-type: none;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: lighter;
+      overflow: hidden;
+      padding: 10px 0;
+      text-transform: uppercase;
+      /* border: 1px solid red; DIAGNOSTIC PURPOSES */
+    }
+    li {
+      display: inline;
+      border-left: 1px solid #884444;
+      border-right: 1px solid #884444;
+      padding: 5px 0;
+    }
+    li:first-child {
+      border-left: none;
+    }
+    li:last-child {
+      border-right: none;
+    }
+    li a {
+      text-decoration: none;
+      color: #DDD;
+      padding: 30px 10px;
+    }
+    li a:hover {
+      background-color: #DDD;
+      color: #444;
+    }
+    div.container {}
+
+    div.body {}
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: adobe-caslon-pro, serif;
+      font-style: lighter;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+    div.title {
+      position: relative;
+      height: 500px;
+      text-align: center;
+      background-image: url("southwark.jpg");
+      background-repeat: no-repeat;
+    }
+    h1.name {
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      font-size: 80px;
+      /*margin: 0px;*/
+    }
+    h3.city {
+      position: absolute;
+      top: 53%;
+      width: 100%;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="about.asp">About</a></li>
+    <li><a href="portfolio.asp">Portfolio</a></li>
+    <li><a href="resume.asp">Resume</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+  </ul>
+  <div class="container">
+    <div class="body">
+      <div class="title">
+        <div class="titleborder">
+          <h1 class="name">Dean Lalap</h1>
+          <h3 class="city">Riverside, California</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
