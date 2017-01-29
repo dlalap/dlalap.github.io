@@ -6,30 +6,32 @@
     ul {
       list-style-type: none;
       border: 1px solid #0;
-      background-color: #222;
+      background-color: #111;
       margin: 0;
-      padding: 0;
+      padding: 0px;
       position: fixed;
       top: 0;
       overflow: auto;
       height: 100%;
-      width: 15%;
+      width: 16%;
     }
 
     li a {
       display: block;
-      margin: 10px 0;
+      margin: 0;
       padding: 20px 16px;
       text-decoration: none;
       width: 100%;
       font-family: helvetica;
       font-weight: lighter;
       font-size: 15px;
+      border-bottom: 1px solid white;
     }
 
     li a:link, li a:visited {
-      background-color: #444;
+      background-color: #0;
       color: white;
+      text-align: left;
     }
 
     li a:hover, li a:active {
@@ -39,12 +41,17 @@
       transition: 0.4s;
     }
 
+    li a.contact {
+      border-bottom: none;
+    }
+
     li a.last {
       position: absolute;
       bottom: 0px;
       font-size: 10px;
       background-color: rgba(0,0,0,0);
       text-transform: uppercase;
+      border-bottom: none;
     }
 
     a.hashtag:link, a.hashtag:visited {
@@ -54,6 +61,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 5px;
     }
     a.hashtag:hover, a.hashtag:active {
       background-color: red;
@@ -63,7 +71,7 @@
     }
     div.menu {
       position: absolute;
-      width: 15%;
+      width: 20%;
       left: 0;
       height: 100%;
       /*border: 1px solid blue;*/
@@ -118,7 +126,7 @@
         <li><a href="about.asp">About</a></li>
         <li><a href="projects.asp">Projects</a></li>
         <li><a href="resume.asp">Resume</a></li>
-        <li><a href="contact.asp">Contact</a></li>
+        <li><a class="contact" href="contact.asp">Contact</a></li>
         <li><a class="last" href="dlp.asp">Copyright 2017</br>Dean Lalap Productions</a></li>
       </ul>
     </div>
@@ -133,7 +141,7 @@
   <script>
   function change(id) {
     id.innerHTML = "I'm not very good at staying active :(";
-    code.innerHTML = "<a href=\"http://www.twitter.com/deanlalap\">#100DaysFail</a>";
+    code.innerHTML = "<a class=\"hashtag\" href=\"http://www.twitter.com/deanlalap\">#100DaysFail</a>";
     }
   </script>
 </body>
