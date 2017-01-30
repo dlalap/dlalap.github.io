@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background-color: rgba(50,50,50,100);
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+h1.name {
+  font-size: 72px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: -8px;
+}
+
+div.nameHeading {
+  text-align: center;
+}
+
+div.nameHeading p {
+  font-style: italic;
+}
+
+div.education ul li {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+b.school {
+  text-transform: uppercase;
+}
+
+div.academicExperience-content {
+  display: none;
+}
+
+div.techSkills-content {
+  display: none;
+}
+
+/* Probably the least effective way to reveal sections */
+.academicExperience:hover .academicExperience-content, .techSkills:hover .techSkills-content {
+  display: block;
+}
