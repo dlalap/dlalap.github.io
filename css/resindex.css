@@ -39,6 +39,6 @@ div.techSkills-content {
 }
 
 /* Probably the least effective way to reveal sections */
-.academicExperience:hover .academicExperience-content, .techSkills:hover .techSkills-content {
+/*.academicExperience:hover .academicExperience-content, .techSkills:hover .techSkills-content {
   display: block;
-}
+}*/
