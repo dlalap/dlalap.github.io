@@ -20,6 +20,11 @@ div.nameHeading p {
   font-style: italic;
 }
 
+div.disBody {
+  width: 80%;
+  margin: 0 auto;
+}
+
 div.education ul li {
   display: inline-block;
   width: 30%;
