@@ -10,7 +10,7 @@ var ball = {
   velocity: {x: 10, y: 0},
   mass: 0.1,    // kilograms
   radius: 15,   // 1px = 1cm, 100cm = 1m
-  restitution: -1.1
+  restitution: -0.8
 };
 
 var Cd = 0.47;  // Dimensionless
