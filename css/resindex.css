@@ -31,11 +31,11 @@ b.school {
 }
 
 div.academicExperience-content {
-  display: none;
+  display: block;
 }
 
 div.techSkills-content {
-  display: none;
+  display: block;
 }
 
 /* Probably the least effective way to reveal sections */
