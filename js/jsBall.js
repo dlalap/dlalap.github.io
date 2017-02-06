@@ -13,7 +13,7 @@ var ball = {
   restitution: -0.8
 };
 
-var Cd = 0.47;  // Dimensionless
+var Cd = -0.05;  // Dimensionless
 var rho = 1.22; // Density kg per volume
 var A = Math.PI * ball.radius * ball.radius / (10000); // area (meters squared)
 var ag = 9.81;  // Gravitational Acceleration
