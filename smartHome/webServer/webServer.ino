@@ -3,10 +3,13 @@
 
 ESP8266WebServer server;
 
-uint8_t relayPin = D0;
+uint8_t pin1 = D0;
+uint8_t pin2 = D1;
+uint8_t pin3 = D2;
+uint8_t pin4 = D3;
 
-char* ssid = "THC";
-char* password = "housecleaning";
+char* ssid = "G25F5";
+char* password = "7DK4N4Z2YYDBNRDZ";
 
 void setup()
 {
