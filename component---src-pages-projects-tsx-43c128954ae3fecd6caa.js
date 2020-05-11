@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{gZkK:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Wbzz"),o=a("Bl7J"),r=a("vrFN");t.default=function(e){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Projects"}),l.a.createElement("h1",null,"Projects"),l.a.createElement("p",null,"Welcome to page 2 (",e.path,")"),l.a.createElement(c.Link,{to:"/"},"Go back to the front page"))}}}]);
+//# sourceMappingURL=component---src-pages-projects-tsx-43c128954ae3fecd6caa.js.map
